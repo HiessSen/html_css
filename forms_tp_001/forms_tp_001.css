@@ -3,6 +3,7 @@ body{
     margin: 0 20%;
 }
 form{
+    border-radius: 1%;
     border: 15px solid #1a0053;
     text-align: center;
     background-color: #d3d3d3;
@@ -15,4 +16,7 @@ p{
 }
 div{
     margin: 20px 0;
+}
+#date{
+    width: 92%;
 }
