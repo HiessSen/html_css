@@ -13,8 +13,10 @@ body{
 
 nav{
     width: 100%;
-    background-color: #d3d3d3;
+    margin: 10px 0;
+    padding: 10px 0;
     text-align: center;
+    background-color: #d3d3d3;
 }
 nav h2{
     font-size: 2em;
@@ -27,15 +29,17 @@ nav ul li{
     display: inline;
 }
 nav ul li:hover{
-    background-color: #FFF;
+    background-color: #00008b;
+    color: #FFF;
     border: 1px solid #000;
+    border-radius: 5px;
 }
 main{
     display: flex;
 }
 main article{
     width: 75%;
-    margin: 0 1% 0 0;
+    margin: 0 1% 1% 0;
     padding: 1% 2% 0 2%;
     text-align: center;
     background-color: #d3d3d3;
@@ -56,5 +60,7 @@ main aside img:hover{
     width: 110%;
 }
 footer{
-    background-color: darkgrey;
+    padding: 5px 1%;
+    background-color: #000;
+    color: #FFF;
 }
