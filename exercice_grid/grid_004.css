@@ -20,3 +20,12 @@ header{
 footer{
     grid-column: 1 / 4;
 }
+
+@media only screen and (max-width: 640px) {
+    .container{
+        grid-template-rows: 30px 50px 50px 50px 50px;
+    }
+    nav, section, aside {
+        grid-column: 1 / 4;
+        }
+}
