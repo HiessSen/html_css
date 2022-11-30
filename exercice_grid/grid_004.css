@@ -15,10 +15,10 @@ grid-template-rows: 50px 200px 50px;
 grid-template-columns: 25% 50% 25%;
 }
 header{
-    grid-column: 1 / 4;
+    grid-column: 1 / span 3;
 }
 footer{
-    grid-column: 1 / 4;
+    grid-column: 1 / span 3;
 }
 
 @media only screen and (max-width: 640px) {
@@ -26,6 +26,6 @@ footer{
         grid-template-rows: 30px 50px 50px 50px 50px;
     }
     nav, section, aside {
-        grid-column: 1 / 4;
+        grid-column: 1 / span 3;
         }
 }
