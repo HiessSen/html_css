@@ -78,13 +78,16 @@ footer p{
         align-items: center;
         margin-top: 1%;
     }
+    .row:nth-child(2n+1){
+        flex-direction: column-reverse;
+    }
+    
     #container .row p{
         font-size: 1.5em;
         margin: 3% 1%;
     }
     .plus{
         font-size: 2em;
-        
     }
 }
 @media screen and (min-width: 500px)  {
