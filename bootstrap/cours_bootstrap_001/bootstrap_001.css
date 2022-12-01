@@ -1,8 +1,12 @@
 .container {
-    margin-top: 2%;
     border: 1px solid #000;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 form{
-    border: 1px solid darkgray;
+    border: 5px solid darkgray;
+    border-radius: 5px;
+}
+.soumettre{
+    display: flex;
+    justify-content: space-around;
 }
