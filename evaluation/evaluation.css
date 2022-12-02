@@ -2,60 +2,109 @@ body{
     margin: 0 auto;
 }
 
-header div#baniere{
+header #baniere{
     display: flex;
     padding: 1%;
     background-image: url("assets/images/baniere-star.jpg");
+    background-size: cover;
 }
 header img{
     width: 10%;
+    height: 10%;
+    padding: 0 1%;
 }
-header div#baniere h1{
-    padding: 0 50px;
+#baniere h1{
+    padding: 0 1%;
     font-size: 3em;
     color: #FFF;
 }
-header nav ul{
-    display : flex;
-    justify-content:space-evenly;
-    height: 50px;
-    margin: 0 10%;
-    padding: 0;
-    list-style-type: none;
+nav{ /* A CHANGER POUR LE RESPONSIVE*/
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5BC9C8;
+    box-shadow: 0 5px 5px darkgray;
 }
-header nav ul li{ /* A CHANGER POUR LE RESPONSIVE*/
-    width: 16%;
-}
-header nav ul li a{
-    text-decoration: none;
+.navLink{
+    width: 16.6%;
+    padding: 5px 0;
+    text-align: center;
     font-size: 2em;
-    width:100px;
+    text-decoration: none;
     color: #FFF;
-    padding: 1px 20% 12px 20%;
 }
-header nav ul li a:hover{
+.navLink:hover{
     background-color: #0E5A6D;
 }
-nav{
-    background-color: #5BC9C8;
-}
-
-div#container{ /* A CHANGER POUR LE RESPONSIVE*/
+#container{ /* A CHANGER POUR LE RESPONSIVE*/background-color: #FFF;
     display: flex;
     flex-direction: column;
-    width: 75%;
-    margin: 0 12.5%;
+    margin: 1% 12.5%;
 }
-div#blabla p{
+.blabla{
     margin: 0 auto;
     font-size: 1.5em;
 }
-div#corps{
-    height: 230px;
+#corps{
+    display: flex;
+    padding: 2% 0 0 0;
 }
-div#corps img:nth-child(1){
+.carteNasa{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 0 4%;
+    justify-content: center;
+    text-align: center;
+}
+.systemeSolaire{
+    width: 100%;
+    background-image: url(assets/images/systeme-solaire.jpg);
+    background-size: cover;
+    box-shadow: 0 5px 5px darkgray;
+}
+.entreDeux{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.entreDeux p{
+    margin: 0.5% 0.5%;
+    padding: 1%;
+    background-color: lightgrey;
+}
+#vignettes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.vignette{
     width: 25%;
 }
-div#corps img:nth-child(2){
-    width: 60%;
+.vignette h4{
+    margin: 0;
+    padding: 2%;
+    background-color: lightgray;
+    text-transform: uppercase;
+}
+.vignette img{
+    max-width: 100%;
+    min-width : 100%;
+    height: 75%;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1200px){
+    header img{
+        padding: 1% 1%;
+    }
+    .navLink{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 900px){
+    header img{
+        width: 10%;
+        height: 10%;
+        padding: 2% 2%;
+    }
 }
