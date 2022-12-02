@@ -1,5 +1,6 @@
 body{
     margin: 0 auto;
+    width: 100%;
 }
 
 header #baniere{
@@ -106,5 +107,34 @@ nav{ /* A CHANGER POUR LE RESPONSIVE*/
         width: 10%;
         height: 10%;
         padding: 2% 2%;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navLink{
+        width: 50%;
+        margin: 0 25%;
+    }
+}
+@media screen and (max-width: 750px){
+    #baniere h1{
+        font-size: 2.5em;
+    }
+    .carteNasa{
+        width: 25%;
+    }
+    #vignettes{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 40%;
+    }
+}
+@media screen and (max-width: 450px){
+    #baniere h1{
+        font-size: 1.5em;
+    }
+    .carteNasa{
+        width: 50%;
     }
 }
