@@ -36,10 +36,10 @@ nav{ /* A CHANGER POUR LE RESPONSIVE*/
 .navLink:hover{
     background-color: #0E5A6D;
 }
-#container{ /* A CHANGER POUR LE RESPONSIVE*/background-color: #FFF;
+#container{
     display: flex;
     flex-direction: column;
-    margin: 1% 12.5%;
+    margin: 1% 5%;
 }
 .blabla{
     margin: 0 auto;
